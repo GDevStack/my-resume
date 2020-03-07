@@ -1,0 +1,44 @@
+#menuB {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 60px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid #e1f5fe;
+  }
+  .bar1,.bar2,.bar3 {
+      width: 50px;
+      height: 6px;
+      background-color: #e1f5fe;
+      margin: 6px;
+      border-radius: 5px;
+      transition: .5s;
+  }
+
+  
+  .header1 {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    background-color: #01579b;
+   }
+  
+   .searchH {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+   }
+
+   .header-body {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: blueviolet;
+  }
